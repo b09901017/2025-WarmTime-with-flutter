@@ -9,7 +9,7 @@ class MyProfileScreen extends StatelessWidget {
   // Dummy data for profile
   final String caregiverName = "林佳慧";
   final String caregiverId = "TWC00789";
-  final String institutionName = "幸福長照中心";
+  final String institutionName = "清福長照中心";
   final String profileImageUrl = 'assets/images/profile_placeholder.png';
 
   void _logout(BuildContext context) {

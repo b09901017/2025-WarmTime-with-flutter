@@ -27,7 +27,7 @@ class _MainRecordScreenState extends State<MainRecordScreen> {
   final TextEditingController _searchController = TextEditingController();
 
   static const double _viewportFraction = 0.55;
-  static const double _carouselItemHeight = 220.0;
+  static const double _carouselItemHeight = 260.0;
 
   @override
   void initState() {
@@ -191,6 +191,7 @@ class _MainRecordScreenState extends State<MainRecordScreen> {
         },
         child: Column(
           children: <Widget>[
+            const SizedBox(height: 30.0), // <--- 新增這行來讓整個輪播區域下移 20 像素
             SizedBox(
               height: _carouselItemHeight,
               child: displayCarousel

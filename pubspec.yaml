@@ -1,0 +1,35 @@
+name: warm_heart_time_app
+description: A new Flutter project for long-term care facilities in Taiwan.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # 請確認您的Flutter SDK版本
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0 # 提供多種字型選擇
+  # flutter_svg: ^2.0.9 # 如果您打算使用SVG圖示
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # 確保您的圖片路徑已加入
+    # - assets/fonts/ # 如果您有自訂字型
+
+  # fonts:
+  #   - family: YourCustomFont
+  #     fonts:
+  #       - asset: assets/fonts/YourCustomFont-Regular.ttf
+  #       - asset: assets/fonts/YourCustomFont-Bold.ttf
+  #         weight: 700
